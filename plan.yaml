@@ -1,0 +1,80 @@
+Status:
+    name
+User:
+    name
+    email
+    phone
+    password
+    status_id
+SubscriptionPlan:
+        name    
+        description
+prices:
+    amount
+    duration
+    association_name
+    status_id
+SubscriptionPlanFeature:
+    name
+    subscription_plan_id
+    status_id
+Payment:
+    transaction_id
+    customer_name
+    subscription_plan_id
+    amount
+    payment_method
+    period
+    status_id
+
+tools for this project:
+    spatie laravel permission
+    laravel api tool kit
+
+
+# php artisan make:model Status -m
+# php artisan make:model SubscriptionPlan -m
+# php artisan make:model SubscriptionPlanFeature -m
+# php artisan make:model Payment -m
+
+# php artisan make:factory UserFactory
+# php artisan make:factory SubscriptionPlanFactory
+# php artisan make:factory SubscriptionPlanFeatureFactory
+# php artisan make:factory PaymentFactory
+
+# php artisan make:seeder StatusSeeder
+# php artisan make:seeder PermissionSeeder
+# php artisan make:seeder MainSeeder
+
+# php artisan make:request CreateUserRequest
+# php artisan make:request UpdateUserRequest
+
+# php artisan make:request CreateSubscriptionPlanRequest
+# php artisan make:request UpdateSubscriptionPlanRequest
+# 
+# php artisan make:request CreateSubscriptionPlanFeatureRequest
+# php artisan make:request UpdateSubscriptionPlanFeatureRequest
+
+
+# php artisan make:controller Dashboard/UserController
+# php artisan make:controller Dashboard/SubscriptionPlanController
+# php artisan make:controller Dashboard/PaymentController
+
+# php artisan make:filter UserFilter
+# php artisan make:filter SubscriptionPlanFilter
+# php artisan make:filter PaymentFilter
+
+# php artisan make:view dashboard.subscriptionPlans.index
+# php artisan make:view dashboard.subscriptionPlans.create
+# php artisan make:view dashboard.subscriptionPlans.show
+# php artisan make:view dashboard.subscriptionPlans.edit
+
+
+# php artisan make:view dashboard.payments.index
+# php artisan make:view dashboard.payments.
+
+# php artisan make:view dashboard.users.index
+# php artisan make:view dashboard.users.create
+# php artisan make:view dashboard.users.show
+# php artisan make:view dashboard.users.edit
+# php artisan make:view subscriptionPalns.subscribe

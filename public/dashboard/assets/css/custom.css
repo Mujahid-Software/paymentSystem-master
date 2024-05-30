@@ -1,0 +1,43 @@
+/*
+Template Name: Velzon - Admin & Dashboard Template
+Author: Themesbrand
+Website: https://themesbrand.com/
+Contact: support@themesbrand.com
+File: Custom Css File
+*/
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Noto+Kufi+Arabic:wght@100..900&display=swap');
+
+.custom-cart-projects-title {
+    height: 50px;
+    overflow-y: auto;
+}
+
+.custom-cart-projects-text {
+    height: 75px;
+    overflow-y: auto;
+}
+
+body,
+.navbar-landing .navbar-nav .nav-item .nav-link,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+a,
+button,
+label,
+input,
+span,
+.fw-medium,
+.ff-secondary,
+.fw-semibold {
+    font-family: "Noto Kufi Arabic", sans-serif !important;
+    font-weight: 400 !important;
+}
+@media (max-width: 800px) {
+    .custom-table-search {
+        width: 80%;
+    }
+}
